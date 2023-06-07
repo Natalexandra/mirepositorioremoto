@@ -1,0 +1,25 @@
+#img{
+    max-width: 99%;
+    max-height: 99%;
+    border-radius: 20%;
+}
+
+.image-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 600px;
+    position: relative;
+    border-radius: 4%;
+}
+
+.btn_anterior {
+
+    position: absolute;
+    left: 0;
+}
+.btn_siguiente {
+    position: absolute;
+    right: 0;
+}
